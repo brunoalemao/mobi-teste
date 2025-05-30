@@ -1,0 +1,7 @@
+[submodule "app-tipo-uber-faze-final"]
+    path = app-tipo-uber-faze-final
+    url = https://github.com/brunoalemao/mobi-teste.git
+
+[submodule "mobigo-temp"]
+    path = mobigo-temp
+    url = https://github.com/brunoalemao/mobi-teste.git 
