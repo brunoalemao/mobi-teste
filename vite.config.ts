@@ -5,12 +5,23 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    include: [
+      'react',
+      'react-dom',
+      'react-router-dom',
+      '@emotion/react',
+      '@emotion/styled',
+      'framer-motion',
+      'firebase/app',
+      'firebase/firestore',
+      'firebase/auth',
+      'react-hot-toast'
+    ]
   },
   build: {
     outDir: 'dist',
     rollupOptions: {
-      external: [],
+      external: []
     }
   },
   resolve: {
